@@ -1,0 +1,11 @@
+{
+  "description": "Background drainers and telemetry apps restricted to rare/restricted standby buckets",
+  "packages": [
+    "com.lenovo.anyshare.gps",
+    "com.huawei.appmarket",
+    "com.tencent.qqlivei18n",
+    "com.picsart.studio",
+    "running.tracker.gps.map",
+    "gofasting.fastingtracker.fasting.intermittentfasting"
+  ]
+}

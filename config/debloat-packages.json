@@ -1,0 +1,55 @@
+{
+  "description": "Safe package debloat list for Samsung One UI & Android (User 0 only - completely reversible)",
+  "packages": [
+    {
+      "package": "com.sec.android.diagmonagent",
+      "name": "Samsung Diagnostic & Error Monitoring Agent",
+      "reason": "Continuously logs system events and reports diagnostics back to Samsung servers"
+    },
+    {
+      "package": "com.samsung.android.rubin.app",
+      "name": "Samsung Customization Service (Rubin)",
+      "reason": "Tracks personal user behavior across apps for targeted service suggestions"
+    },
+    {
+      "package": "com.samsung.android.game.gamehome",
+      "name": "Samsung Game Launcher / Game Home",
+      "reason": "Pushes game notifications, promotional cards, and runs telemetry services"
+    },
+    {
+      "package": "com.samsung.android.allshare.service.mediashare",
+      "name": "Samsung AllShare Media Share",
+      "reason": "Broadcasts DLNA discovery beacons continuously in the background"
+    },
+    {
+      "package": "com.samsung.android.smartswitchassistant",
+      "name": "Samsung Smart Switch Assistant Daemon",
+      "reason": "Background migration watcher; not needed during daily device usage"
+    },
+    {
+      "package": "com.samsung.android.kidsinstaller",
+      "name": "Samsung Kids Installer",
+      "reason": "Pre-installed stub installer for Samsung Kids"
+    },
+    {
+      "package": "com.samsung.android.visualars",
+      "name": "Samsung Visual ARS",
+      "reason": "Interactive voice response visual overlay helper; rarely used"
+    },
+    {
+      "package": "com.facebook.services",
+      "name": "Facebook Background Services",
+      "reason": "Background telemetry and app analytics synchronization daemon"
+    },
+    {
+      "package": "com.facebook.system",
+      "name": "Facebook System Installer",
+      "reason": "System app updater for Meta applications"
+    },
+    {
+      "package": "com.facebook.appmanager",
+      "name": "Facebook App Manager",
+      "reason": "Meta app version management service"
+    }
+  ]
+}
